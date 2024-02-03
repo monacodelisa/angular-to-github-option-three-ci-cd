@@ -24,7 +24,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v2
         with:
-          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-          BASE_BRANCH: main
-          BRANCH: prod
-          FOLDER: github-option-three-app/dist/browser  
+          folder: github-option-three-app/dist/browser
+          branch: prod  
