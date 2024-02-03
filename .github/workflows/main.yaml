@@ -22,9 +22,8 @@ jobs:
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          build_dir: github-option-three-app/dist/browser
-          target_branch: prod  
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          folder: github-option-three-app/dist/browser
+          branch: prod  
+          token: ${{ secrets.GH_TOKEN }}
