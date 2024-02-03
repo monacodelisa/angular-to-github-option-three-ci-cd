@@ -25,3 +25,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v2
         with:
           folder: github-option-three-app/dist/browser
+          branch: prod  
+          token: ${{ secrets.GH_TOKEN }}
