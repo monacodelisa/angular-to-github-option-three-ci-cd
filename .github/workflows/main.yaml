@@ -18,7 +18,8 @@ jobs:
           node-version: 20
 
       - name: Build Angular app to prod
-        run: cd /github-option-three-app npm install && npm run build:prod
+        working-directory: github-option-three-app
+        run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v2
