@@ -26,4 +26,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BASE_BRANCH: main
           BRANCH: prod
-          FOLDER: dist/browser  
+          FOLDER: github-option-three-app/dist/browser  
