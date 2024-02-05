@@ -2,7 +2,9 @@
 
 [![Alt Text](https://github.com/monacodelisa/angular-to-github-option-three-ci-cd/blob/main/thumbnail-angular-v17-deploy-github-pages-3-play.jpg?raw=true)](https://youtu.be/SMuB3qYjDUw)
 
-This is just a basic app that only contains relevant files to set up this type of deployment - nothing else.
+This is just a basic app that only contains relevant files to set up this type of deployment - not much else.
+
+## [VIEW LIVE](https://monacodelisa.github.io/angular-to-github-option-three-ci-cd/)
 
 OPTION 3 
 - PROs 
