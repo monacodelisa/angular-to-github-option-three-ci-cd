@@ -1,0 +1,22 @@
+.video-wrapper {
+  display: flex;
+  margin: 1rem auto 0.3rem;
+
+  iframe {
+    width: 32rem;
+    height: 18rem;
+  }
+}
+
+small {
+  color: var(--gray-400);
+}
+
+small a {
+  color: var(--gray-400);
+  text-decoration: none;
+}
+
+small a:hover {
+  color: var(--white);
+}
