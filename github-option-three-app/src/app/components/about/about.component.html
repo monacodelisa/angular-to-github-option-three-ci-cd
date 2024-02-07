@@ -1,0 +1,22 @@
+<p-fieldset>
+  <ng-template pTemplate="header" class="header">
+      <div class="legend">
+          <p-avatar size="xlarge" image="https://avatars.githubusercontent.com/u/64324417?v=4" shape="circle" />
+          <div class="name">
+            <span>Esther White</span>
+            <span>{{ mcl }}</span>
+          </div>
+      </div>
+  </ng-template>
+  <p class="m-0">
+      Full Stack Developer focusing in Angular, Node.js, and MongoDB. I am passionate about learning new technologies and building applications that solve real-world problems. I am a quick learner and a team player. I am always looking for opportunities to learn and grow.
+  </p>
+  <p>Oh abd btw - my picture is not 'grainy', I have just layered a lot of TypeScript code over it.</p>
+  <div class="social">
+    @for (link of links; track link) {
+      <div class="social-link">
+        <a href="{{link.url}}" target="_blank" rel="noopener noreferrer"><span [class]="link.icon"></span></a>
+      </div>
+      }
+  </div>
+</p-fieldset>

@@ -1,0 +1,35 @@
+.legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid #ffffff1f;
+  border-radius: 4px;
+}
+
+p-avatar {
+  margin-right: 0.7rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+span {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-link span {
+  font-size: 1.3rem;
+  margin: 0.3rem;
+}
