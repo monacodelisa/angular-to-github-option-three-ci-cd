@@ -1,0 +1,11 @@
+.sidenav {
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 7vw;
+  min-height: 80vh;
+}
