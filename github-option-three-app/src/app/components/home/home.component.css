@@ -1,6 +1,16 @@
+:host {
+  max-width: 37vw;
+  min-height: 65vh;
+}
+
+h1 {
+  text-align: center;
+  line-height: 3rem;
+}
+
 .video-wrapper {
   display: flex;
-  margin: 1rem auto 0.3rem;
+  justify-content: center;
 
   iframe {
     width: 32rem;

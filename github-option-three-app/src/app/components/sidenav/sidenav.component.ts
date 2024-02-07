@@ -1,16 +1,19 @@
 import { Component, Input } from "@angular/core";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterOutlet, RouterLink, RouterLinkActive } from "@angular/router";
 import { ToolbarModule } from "primeng/toolbar";
 
 @Component({
 	selector: "app-sidenav",
 	standalone: true,
-	imports: [RouterOutlet, RouterLink, RouterLinkActive, ToolbarModule],
+	imports: [FormsModule, ReactiveFormsModule, RouterOutlet, RouterLink, RouterLinkActive, ToolbarModule],
 	templateUrl: "./sidenav.component.html",
 	styleUrl: "./sidenav.component.css",
 })
 export class SidenavComponent {
 	@Input() sidenavOpen: boolean = true;
+
+  date: Date[] | undefined;
 
 	items = [
 		{
@@ -27,6 +30,6 @@ export class SidenavComponent {
 			label: "About Angular",
 			icon: "pi pi-shield",
 			route: "/about-angular",
-		},
+		}
 	];
 }
