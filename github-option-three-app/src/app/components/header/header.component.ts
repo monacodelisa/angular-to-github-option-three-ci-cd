@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { ToolbarModule } from "primeng/toolbar";
 import { InputSwitchModule } from "primeng/inputswitch";
 import { ButtonModule } from "primeng/button";
+import { SidenavComponent } from "../sidenav/sidenav.component";
 
 @Component({
 	selector: "app-header",
@@ -11,6 +12,7 @@ import { ButtonModule } from "primeng/button";
 	imports: [
 		FormsModule,
 		ReactiveFormsModule,
+    SidenavComponent,
 		ToolbarModule,
 		InputSwitchModule,
 		ButtonModule,
@@ -20,4 +22,9 @@ import { ButtonModule } from "primeng/button";
 })
 export class HeaderComponent {
 	checked: boolean = true;
+  sidenavOpen: boolean = true;
+
+  toggleSidenav() {
+    this.sidenavOpen = !this.sidenavOpen;
+  }
 }

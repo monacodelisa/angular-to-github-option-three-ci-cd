@@ -1,8 +1,9 @@
 .wrapper {
   display: flex;
+  min-height: 80vh;
 }
 
-.sidenav {
+.sidenav-spacer {
   width: 20dvw;
 }
 

@@ -1,4 +1,5 @@
 .sidenav {
+  position:absolute;
   display: flex;
   margin: 0.5rem 0;
 }
@@ -6,6 +7,20 @@
 nav {
   display: flex;
   flex-direction: column;
-  width: 7vw;
-  min-height: 80vh;
+  min-height: 73vh;
+  padding: 0 0.5rem 0 0;
+}
+
+.nav-item {
+  color: #CE93D8;
+}
+
+.pi {
+  margin-right: 0.5rem;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2rem;
 }

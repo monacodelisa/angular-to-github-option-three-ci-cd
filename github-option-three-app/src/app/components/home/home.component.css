@@ -7,16 +7,3 @@
     height: 18rem;
   }
 }
-
-small {
-  color: var(--gray-400);
-}
-
-small a {
-  color: var(--gray-400);
-  text-decoration: none;
-}
-
-small a:hover {
-  color: var(--white);
-}

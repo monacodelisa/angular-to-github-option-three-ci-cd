@@ -1,9 +1,9 @@
 <p-toolbar class="header">
   <div class="p-toolbar-group-start">
-    <button pButton icon="pi pi-bars" class="mr-2"></button>
+    <button pButton icon="pi pi-bars" class="mr-2" (click)="toggleSidenav()"></button>
   </div>
   <div class="p-toolbar-group-end">
     <p-inputSwitch [(ngModel)]="checked"></p-inputSwitch>
   </div>
 </p-toolbar>
-
+<app-sidenav [sidenavOpen]="sidenavOpen"></app-sidenav>

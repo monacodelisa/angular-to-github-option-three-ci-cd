@@ -1,6 +1,11 @@
+@if (sidenavOpen) {
 <p-toolbar class="sidenav">
   <nav>
-    <a [routerLink]="['/']" routerLinkActive="router-link-active" >Home</a>
-    <a [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a>
+    @for (item of items; track item) {
+    <div class="nav-item">
+      <a [routerLink]="item.route" routerLinkActive="active"><span [class]="item.icon"></span>{{item.label}}</a>
+    </div>
+    }
   </nav>
 </p-toolbar>
+}
